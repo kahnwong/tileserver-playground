@@ -4,6 +4,6 @@ services:
   tileserver-gl:
     image: maptiler/tileserver-gl:v4.2.0
     volumes:
-      - './data:/data'
+      - './:/data'
     ports:
       - '8352:8080'

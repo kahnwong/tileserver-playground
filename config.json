@@ -1,0 +1,30 @@
+{
+  "options": {
+    "paths": {
+      "fonts": "fonts",
+      "styles": "styles"
+    }
+  },
+  "styles": {
+    "test-style": {
+      "style": "osm-bright/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [100.4778786, 13.7378145,100.5920937, 13.671872]
+      }
+    },
+    "klokantech-basic": {
+      "style": "klokantech-basic/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds":[100.4778786, 13.7378145, 100.5920937, 13.671872]
+      }
+    }
+  },
+  "data": {
+    "openmaptiles": {
+      "mbtiles": "mbtiles/thailand.mbtiles"
+    }
+
+  }
+}

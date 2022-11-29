@@ -5,10 +5,10 @@
 
 ## Download sample data
 
-```bash
-mkdir data
-cd data && wget https://github.com/maptiler/tileserver-gl/releases/download/v1.3.0/zurich_switzerland.mbtiles
-```
+- <https://data.maptiler.com/maps/> - styles
+
+- fonts & styles source: <https://github.com/maptiler/tileserver-gl/releases/download/v1.3.0/test_data.zip>
+- mbtiles source: <https://data.maptiler.com/downloads/planet/>
 
 ## Launch tileserver
 
