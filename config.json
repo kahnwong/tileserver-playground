@@ -33,6 +33,13 @@
         "type": "overlay",
         "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
       }
+    },
+    "maptiler-3d": {
+      "style": "maptiler-3d/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
+      }
     }
   },
   "data": {
