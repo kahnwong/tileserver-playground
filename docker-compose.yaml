@@ -7,3 +7,4 @@ services:
       - './:/data'
     ports:
       - '8352:8080'
+    restart: always
