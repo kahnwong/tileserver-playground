@@ -2,7 +2,7 @@
 version: '3.3'
 services:
   tileserver-gl:
-    image: maptiler/tileserver-gl:v4.2.0
+    image: maptiler/tileserver-gl:v4.3.3
     volumes:
       - './:/data'
     ports:
