@@ -1,0 +1,50 @@
+{
+  "options": {
+    "paths": {
+      "fonts": "fonts",
+      "styles": "styles"
+    }
+  },
+  "styles": {
+    "klokantech-basic": {
+      "style": "klokantech-basic/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
+      }
+    },
+    "maptiler-3d": {
+      "style": "maptiler-3d/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
+      }
+    },
+    "maptiler-basic": {
+      "style": "maptiler-basic/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
+      }
+    },
+    "osm-bright": {
+      "style": "osm-bright/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
+      }
+    },
+    "streets": {
+      "style": "streets/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
+      }
+    }
+  },
+  "data": {
+    "openmaptiles": {
+      "mbtiles": "mbtiles/thailand.mbtiles"
+    }
+  }
+}
