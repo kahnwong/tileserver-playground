@@ -17,6 +17,14 @@ Need to modify `styles.json` as outlined [here](https://www.blef.fr/how-to-deplo
 
 - <https://data.maptiler.com/downloads/planet/>
 
+#### Create mbtiles from OSM dump
+
+Download `*.osm.pbf` file from <https://download.geofabrik.de/>, then use <https://github.com/systemed/tilemaker> to convert it to mbtiles:
+
+```bash
+tilemaker --input data/thailand-latest.osm.pbf --output data/thailand.mbtiles --process resources/process-openmaptiles.lua --config resources/config-openmaptiles.json
+```
+
 ## Launch tileserver
 
 ```bash

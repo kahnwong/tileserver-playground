@@ -2,9 +2,9 @@
 version: '3.3'
 services:
   tileserver-gl:
-    image: maptiler/tileserver-gl:v4.3.3
+    image: maptiler/tileserver-gl:v4.10.2
     volumes:
       - './:/data'
     ports:
-      - '8352:8080'
+      - '8080:8080'
     restart: always
