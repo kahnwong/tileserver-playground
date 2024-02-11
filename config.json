@@ -6,13 +6,6 @@
     }
   },
   "styles": {
-    "test-style": {
-      "style": "osm-bright/style.json",
-      "tilejson": {
-        "type": "overlay",
-        "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
-      }
-    },
     "klokantech-basic": {
       "style": "klokantech-basic/style.json",
       "tilejson": {
@@ -20,8 +13,8 @@
         "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
       }
     },
-    "streets": {
-      "style": "streets/style.json",
+    "maptiler-3d": {
+      "style": "maptiler-3d/style.json",
       "tilejson": {
         "type": "overlay",
         "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
@@ -34,8 +27,15 @@
         "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
       }
     },
-    "maptiler-3d": {
-      "style": "maptiler-3d/style.json",
+    "osm-bright": {
+      "style": "osm-bright/style.json",
+      "tilejson": {
+        "type": "overlay",
+        "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
+      }
+    },
+    "streets": {
+      "style": "streets/style.json",
       "tilejson": {
         "type": "overlay",
         "bounds": [100.4778786, 13.7378145, 100.5920937, 13.671872]
